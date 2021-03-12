@@ -1,0 +1,10 @@
+/* 768px for the tablet view */
+@media (max-width: 768px) {
+  .nav-ctn ul li {
+    font-size: 26px;
+  }
+}
+
+/* put 450px because we know that no phone is going to be larger than 450px */
+@media (max-width: 450px) {
+}

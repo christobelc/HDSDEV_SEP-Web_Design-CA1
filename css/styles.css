@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* deafult font */
+  font-family: "Times New Roman", Times, serif;
+  /* googles halloween font */
+  font-family: "Griffy", cursive;
+}
+
+body {
+  background-color: rgb(131, 178, 180);
+  margin: 1%;
+  border: 1px solid black;
+}
+
+.header-ctn,
+.footer-ctn {
+  color: rgb(235, 214, 214);
+  text-shadow: 2px 2px 8px black;
+  width: 100%;
+  background-color: rgb(248, 149, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-ctn {
+  height: 15vh;
+  border-bottom: 1px solid black;
+}
+
+header {
+  font-size: 24px;
+}
+
+header h1 {
+  text-align: center;
+}
+
+/* ---------- main area ------------------- */
+
+.main-ctn {
+  width: 100%;
+  display: flex;
+  align-self: start;
+  flex-wrap: wrap;
+}
+
+/* ----------nav bar-------------- */
+
+.nav-ctn {
+  display: block;
+  width: 25%;
+  /* thanks Aqeel for letting me know this */
+  margin-left: -1px;
+  border-right: 1px solid black;
+}
+
+.nav-ctn ul {
+  list-style: none;
+  padding: 10%;
+}
+
+.nav-ctn ul li {
+  text-align: center;
+  padding: 10%;
+  font-size: 36px;
+  text-shadow: 2px 2px 8px black;
+  border-bottom: 1px solid black;
+}
+
+.nav-ctn ul li a {
+  text-decoration: none;
+  color: rgb(235, 214, 214);
+}
+.nav-ctn ul li :hover {
+  transition: 0.3s;
+  color: black;
+  transition-timing-function: ease-in-out;
+}
+/* ----------------contents main area------- */
+
+.contents-ctn {
+  display: block;
+  width: 75%;
+}
+
+.contents-ctn .align-ctn {
+  padding: 5%;
+  font-size: 20px;
+}
+
+.contents-ctn .align-ctn h2 {
+  font-size: 36px;
+  padding-bottom: 3%;
+}
+
+.align-ctn .p2 {
+  padding-bottom: 2%;
+}
+
+/* ------------pics -------- */
+
+.contents-ctn .pic-ctn {
+  text-align: center;
+  padding: 2%;
+}
+
+.contents-ctn .pic-ctn p {
+  padding: 2%;
+}
+
+.pic-ctn .pics {
+  box-shadow: 3px 3px 5px 6px #ccc;
+}
+
+/* ----------footer -------- */
+.footer-ctn {
+  height: 10vh;
+  border-top: 1px solid black;
+}
